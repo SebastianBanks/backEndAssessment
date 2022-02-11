@@ -48,8 +48,8 @@ function addToList(item) {
     todoCard.innerHTML = `
     <p class="todo-item">${item.item}</p>
     <div class="btns-container">
-        <button onclick="editTodo(${item.id}, 'done')">Done</button>
-        <button onclick="editTodo(${item.id}, 'undone')">Undone</button>
+        <button onclick="editTodo(${item.id}, 'done')">Edit</button>
+        
         <button onclick="deleteTodo(${item.id})">delete</button>
     </div>
     
