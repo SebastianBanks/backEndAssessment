@@ -1,0 +1,90 @@
+.btns-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#todo-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#todo-container {
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit {
+    margin-top: 10px;
+}
+
+#fortuneButton {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: goldenrod;
+    margin: 10px;
+}
+
+#complimentButton {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: goldenrod;
+    margin: 10px;
+}
+
+.items {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 200px;
+   background-color: goldenrod;
+   height: 100px;
+   padding: 20px;
+   border-radius: 40px;
+}
+
+.todo {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+
+body {
+    background-color: midnightblue;
+    color: whitesmoke;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
